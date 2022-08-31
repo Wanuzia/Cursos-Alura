@@ -10,6 +10,9 @@
     grid-template-rows: 33.33% 33.33% 33.33%;
     /* height: calc(100vh -50px);  */
     height: 100%; /*Sem esta especificação (height: 100%) o código está quebrando*/
+    /* padding: 0.1rem 0.6rem;  */
+    /*Sem este padding a página dá scroll para a direita. Aconteceu depois de implementar a section populares*/
+
 }
 .destaques__titulo {
     background: rgba(0, 0, 0, .5);
