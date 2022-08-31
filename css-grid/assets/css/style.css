@@ -7,7 +7,7 @@
         "conteudo"
         "rodape";
     grid-template-columns: auto; /*Definimos tamanho das colunas como automático*/
-    grid-template-rows: 50px 100vh  auto; 
+    grid-template-rows: 50px auto  auto; 
 }
 
 .cabecalho {
@@ -20,11 +20,16 @@
 .conteudo {
     /* background: #ff8080; */
     grid-area: conteudo;
+    padding: 0 2rem;
 }
 
 .rodape {
-    background: #0099ff;
+    background: #fdfdfd;
+    color: #333333;
+    font-size: .8rem;
     grid-area: rodape;
+    padding: 1rem;
+    text-align: center;
 }
 /*Com a propriedade grid-area dizemos para o elemento onde ele deve ficar.
 */

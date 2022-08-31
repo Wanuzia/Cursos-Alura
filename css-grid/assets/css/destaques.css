@@ -8,11 +8,8 @@
     gap: .2rem; /*O grid-gap define o espaçamento entre linhas e colunas.*/
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 33.33% 33.33% 33.33%;
-    /* height: calc(100vh -50px);  */
-    height: 100%; /*Sem esta especificação (height: 100%) o código está quebrando*/
-    /* padding: 0.1rem 0.6rem;  */
-    /*Sem este padding a página dá scroll para a direita. Aconteceu depois de implementar a section populares*/
-
+    /* height: calc(100vh -50px);  Esse foi o código utilizado pelo instrutor*/
+    height: 100vh; /*Sem esta especificação (height: 100%) o código está quebrando*/
 }
 .destaques__titulo {
     background: rgba(0, 0, 0, .5);
