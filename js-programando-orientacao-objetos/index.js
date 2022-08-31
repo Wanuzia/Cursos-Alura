@@ -1,17 +1,23 @@
 class Cliente {
     nome;
     cpf;
-
 }
 class ContaCorrente {
     agencia;
-    saldo;
-
+    _saldo = 0;
+/*Adiciona comportamentos à classe com a criação de métodos.*/
     sacar(valor){
-        if(this.saldo >= valor){
-            this.saldo -= valor;
+        if(this._saldo >= valor){
+            this._saldo -= valor;
         }
     }
+
+    depositar(valor) {
+        if(valor >0){
+            this._saldo += valor;
+        }
+    }
+    
 }
 
 
@@ -24,10 +30,10 @@ cliente2.nome = "Alice";
 cliente2.cpf = 33344455566678;
 
 const contaCorrenteWanuzia = new ContaCorrente();
-contaCorrenteWanuzia.saldo = 0;
+contaCorrenteWanuzia._saldo = 0;
 contaCorrenteWanuzia.agencia = 001;
 
-contaCorrenteWanuzia.saldo = 500;
+contaCorrenteWanuzia.depositar(500);
 contaCorrenteWanuzia.sacar(50);
 
 console.log(cliente1);
