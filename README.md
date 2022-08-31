@@ -2,6 +2,12 @@
 
 Projeto ByteBank, que trabalha teoria e prática das classes em javascript.
 
+- Repetição de código tratada com a abstração de Classes;
+- Adicionando comportamentos com o uso de métodos;
+- Usa atributos, métodos da instância e da classe
+- Define objetos através de construtores
+- Aborda sobre encapsulamento
+
 
 
 
