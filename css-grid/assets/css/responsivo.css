@@ -1,0 +1,42 @@
+/*celulares*/
+@media screen and (max-width: 767px) {
+    .destaques__principal, .destaques__categorias {
+        grid-column: 1 / 5;
+
+    }
+    .destaques__secundario:nth-child(2) {
+        display: none;
+        grid-column: none;
+        grid-row: none;
+    }
+    .destaques__secundario:nth-child(3) {
+        display: none;
+        grid-column: none;
+        grid-row: none;
+    }
+    .destaques__secundario:nth-child(4) {
+        display: none;
+        grid-column: none;
+        grid-row: none;
+    }
+    .destaques__secundario:nth-child(5) {
+        display: none;
+        grid-column: none;
+        grid-row: none;
+    }
+}
+
+/*tabletes*/
+@media screen and (min-width: 768px) {
+    
+}
+
+/*desktops mais antigos*/
+@media screen and (min-width: 992px) {
+    
+}
+
+/*desktops atuais*/
+@media screen and (min-width: 1200px) {
+    
+}
