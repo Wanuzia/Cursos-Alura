@@ -1,0 +1,16 @@
+{
+  "name": "js-programando-orientacao-objetos",
+  "version": "1.0.0",
+  "description": "Projeto do bytebanck alura",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "alura",
+    "oo"
+  ],
+  "author": "Wanuzia",
+  "license": "ISC",
+  "type": "module"
+}
