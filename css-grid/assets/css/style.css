@@ -1,0 +1,35 @@
+.app {
+    background: #f1f1f1;
+    display: grid;  /*Diz pro html que ele deve se comportar como um grid.*/
+    font-family: Arial, Helvetica, sans-serif;
+    grid-template-areas: 
+        "cabecalho"
+        "conteudo"
+        "rodape";
+    grid-template-columns: auto; /*Definimos tamanho das colunas como automático*/
+    grid-template-rows: 50px auto  auto; 
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    grid-area: cabecalho;
+    padding: 0 2rem;
+}
+ 
+.conteudo {
+    /* background: #ff8080; */
+    grid-area: conteudo;
+    padding: 0 2rem;
+}
+
+.rodape {
+    background: #fdfdfd;
+    color: #333333;
+    font-size: .8rem;
+    grid-area: rodape;
+    padding: 1rem;
+    text-align: center;
+}
+/*Com a propriedade grid-area dizemos para o elemento onde ele deve ficar.
+*/

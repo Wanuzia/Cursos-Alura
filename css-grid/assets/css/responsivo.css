@@ -1,0 +1,63 @@
+/*celulares*/
+@media screen and (max-width: 767px) {
+    .destaques__principal, .destaques__categorias {
+        grid-column: 1 / 5;
+    }
+    .destaques__secundario:nth-child(2) {
+        display: none;
+        grid-column: none;
+        grid-row: none;
+    }
+    .destaques__secundario:nth-child(3) {
+        display: none;
+        grid-column: none;
+        grid-row: none;
+    }
+    .destaques__secundario:nth-child(4) {
+        display: none;
+        grid-column: none;
+        grid-row: none;
+    }
+    .destaques__secundario:nth-child(5) {
+        display: none;
+        grid-column: none;
+        grid-row: none;
+    }
+    .populares__conteudo {
+        flex-direction: column;
+    }
+    .populares__card {
+        width: 100%;
+        margin-bottom: 3rem;
+        margin-right: 0;
+        grid-template-rows: 150px auto;
+    }
+}
+
+/*tabletes*/
+@media screen and (min-width: 768px) {
+    .populares__conteudo {
+        flex-direction: row;
+    }
+    .populares__card {
+        margin-bottom: 3rem;
+        margin-right: 1rem;
+        width: calc(50% - 1rem);
+    }
+}
+
+/*desktops mais antigos*/
+@media screen and (min-width: 992px) {
+    .populares__card {
+        width: calc(33.33% - 1rem);
+    }
+}
+
+/*desktops atuais*/
+@media screen and (min-width: 1200px) {
+    .populares__card {
+        width: calc(20% - 1rem);
+    }
+    /*default que está nos css de cada seção. 
+    Poderia ser descrito aqui e retirado do css de cada seção.*/
+}
