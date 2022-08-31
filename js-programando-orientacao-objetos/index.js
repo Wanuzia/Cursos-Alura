@@ -17,6 +17,7 @@ contaCorrenteWanuzia.transferir(valor, conta2);
 
 
 console.log(contaCorrenteWanuzia, conta2)
+console.log(ContaCorrente.numeroDeContas)
 
 /*
 Tipo de valor => let valor;
