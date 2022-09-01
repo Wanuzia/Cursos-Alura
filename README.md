@@ -1,8 +1,8 @@
 # Projetos
-### Menu
+### Menu(#menu)
 
-- [CSS GRID](#-welcome-)
-- [👩‍💻 IDE](#-ide-)
+
+- [👩‍💻 CSS GRID](#-css)
 
 
  <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank"><img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" /></a>
@@ -26,8 +26,7 @@ Curso da Alura, onde está sendo desenvolvido " jogo com base no Freeway, lança
 
  <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target="_blank"><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" /></a>
  
-## CSS GRID
 
-## 🔌 IDE Plugin [🔝](#welcome-badges-4-readmemd-profile)
+## ⚡ CSS GRID [🔝](#menu)
 
 ![Captura de Tela 2022-08-31 às 16 22 36](https://user-images.githubusercontent.com/98324557/187764794-0cce9f7f-d611-4eea-814a-d4f869383bf5.png)
